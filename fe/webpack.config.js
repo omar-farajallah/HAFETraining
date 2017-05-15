@@ -21,20 +21,8 @@ module.exports = validate({
             `${process.cwd()}/${brandFolder}/js/mediators/common.js`,
             `${process.cwd()}/node_modules/picturefill/dist/picturefill.js`
         ],
-        'js/mediators/homePage': [
-            `${process.cwd()}/${brandFolder}/js/mediators/homePage.js`
-        ],
         'js/mediators/example': [
             `${process.cwd()}/${brandFolder}/js/mediators/example.js`
-        ],
-        'js/mediators/storyCampaignPage': [
-            `${process.cwd()}/${brandFolder}/js/mediators/storyCampaignPage.js`
-        ],
-        'js/mediators/merchandisingCampaignPage': [
-            `${process.cwd()}/${brandFolder}/js/mediators/merchandisingCampaignPage.js`
-        ],
-        'js/mediators/cruiseDetailsPage': [
-            `${process.cwd()}/${brandFolder}/js/mediators/cruiseDetailsPage.js`
         ]
     },
 
