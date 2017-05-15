@@ -4,3 +4,4 @@ target/
 .project
 install/
 *index.js
+*.idea
