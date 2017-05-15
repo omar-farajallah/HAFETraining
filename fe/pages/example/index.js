@@ -1,8 +1,8 @@
 'use strict';
 
 // Modules
-import common from './common';
-import renderReact from '../modules/render-react';
+import common from '../common/index';
+import renderReact from '../common/modules/render-react';
 
 // Components
 import TitleH1 from '../../../components/titleH1';
@@ -15,23 +15,19 @@ import TitleH1 from '../../../components/titleH1';
     const mediator = {
 
         init() {
-
             this.initUI();
         },
 
         initUI() {
-
             this.initReact();
         },
 
         initReact() {
-            renderReact( TitleH1, 'titleH1' );
+            renderReact( TitleH1, 'titleH1');
         }
     };
 
     document.addEventListener( 'DOMContentLoaded', () => {
-
-        console.log( 'DOM is ready.' );
-        mediator.init();
+        mediator.initUI();
     });
 }();
