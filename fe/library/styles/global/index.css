@@ -1,0 +1,8 @@
+/* Configuration */
+@import '../config/index.css';
+
+@import 'base/index.css';
+@import 'icons/index.css';
+@import 'buttons/index.css';
+@import 'modal/index.css';
+@import 'carousel/index.css';

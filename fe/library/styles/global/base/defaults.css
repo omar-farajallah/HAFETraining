@@ -1,0 +1,51 @@
+body {
+    font-size: var(--base-font-size);
+}
+img,
+video {
+    width: 100%;
+}
+.code {
+    color: white;
+    font-size: 14px;
+    display: block;
+    background-color: black;
+    border: solid gray 2px;
+    padding: 5px;
+    margin: 5px 0;
+}
+.main-wrapper {
+    max-width: var(--width-max);
+    margin: 0 auto;
+}
+
+h1 {
+    @apply --style-h1;
+}
+h2 {
+    @apply --style-h2;
+}
+h3 {
+    @apply --style-h3;
+}
+h4 {
+    @apply --style-h4;
+}
+.body1 {
+    @apply --style-body1;
+}
+.body2 {
+    @apply --style-body2;
+}
+.body3 {
+    @apply --style-body3;
+}
+.body-text-small {
+    @apply --style-small-text;
+}
+.cta-light {
+    @apply --style-cta-light;   
+}
+.sabon-italic {
+    font-family: var(--font-cta-SabonLTStd-Italic);
+}

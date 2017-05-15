@@ -1,0 +1,33 @@
+.component-edit{
+	color:red;
+	text-align:center
+}
+.coral-Multifield.is-invalid {
+  border: solid 1px #e14132;
+}
+
+.coral-Multifield .marker-multifield {
+  display: none;
+}
+
+.cq-dialog-floating .coral-Form-field {
+    width: 90%;
+}
+
+.cq-dialog-floating .coral-Form-fieldlabel {
+    width: 45%;
+}
+
+.js-coral-Multifield-input {
+    border: 2px solid darkgrey;
+    padding-left: 0.5em;
+}
+
+.cq-dialog-floating .richtext-container{
+    clear:both;
+    width: 100%;
+}
+
+.coral-Form--aligned .coral-Checkbox{
+	margin-left: auto;
+}

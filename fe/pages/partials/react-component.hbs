@@ -1,0 +1,8 @@
+{{#compare meta.render 'dynamic' }}
+<div class="react-component{{#if class}} {{ class }}{{/if}}" data-type="{{ type }}" data-id="{{ id }}">{{{ html }}}</div>
+<script data-component>
+  SR.components.data.push( {{{ json }}} );
+</script>
+{{else}}
+{{{ html }}}
+{{/compare}}

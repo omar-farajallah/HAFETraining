@@ -1,0 +1,3 @@
+.btn-cta {
+    @apply --style-cta;
+}

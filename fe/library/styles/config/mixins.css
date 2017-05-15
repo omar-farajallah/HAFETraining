@@ -1,0 +1,135 @@
+/* stylelint-disable */
+/* No need for mixin file */
+
+:root {
+    /* Fonts Mixins */
+    --style-h1 {
+        font-family: var(--font-h1);
+        font-size: 28px;
+        line-height: 32.5px;
+        letter-spacing: 0;
+        @media ( --mvp ) {
+            font-size: 42px;
+            line-height: 50px;
+        }
+    };
+    --style-h2 {
+        font-family: var(--font-h2);
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0;
+        @media ( --mvp ) {
+            font-size: 30px;
+            line-height: 36px;
+        }
+    };
+    --style-h3 {
+        font-family: var(--font-h3);
+        font-size: 18px;
+        line-height: 21.5px;
+        letter-spacing: 0.8px;
+        @media ( --mvp ) {
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: 0;
+        }
+    };
+    --style-h4 {
+        font-family: var(--font-h4);
+        font-size: 25px;
+        line-height: 30px;
+        letter-spacing: 0.8px;
+        @media ( --mvp ) {
+            line-height: 34px;
+            letter-spacing: 0.8px;
+        }
+    };
+    --style-h5 {
+        font-family: var(--font-h5);
+        font-size: 18px;
+        line-height: 1;
+        letter-spacing: 0.8px;
+        @media ( --mvp ) {
+            font-size: 12px;
+        }
+    };
+    --style-body1 {
+        font-family: var(--font-body1);
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.32px;
+    };
+    --style-body2 {
+        font-family: var(--font-body2);
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.32px;
+    };
+    --style-body3 {
+        font-family: var(--font-body3);
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0.32px;
+        @media ( --mvp ) {
+            font-size: 12px;
+            line-height: 18px;
+        }
+    };
+    --style-small-text {
+        font-family: var(--font-small-text);
+        font-size: 12px;
+        line-height: 12px;
+        letter-spacing: 0.32px;
+        @media ( --mvp ) {
+            font-size: 10px;
+            line-height: 15px;
+        }
+    };
+    --style-cta {
+        font-family: var(--font-cta);
+        font-size: 14px;
+        letter-spacing: 1.28px;
+        @media ( --mvp ) {
+            font-size: 16px;
+        }
+    };
+    --style-cta-light {
+        font-family: var(--font-cta-light);
+        font-size: 14px;
+        letter-spacing: 1.28px;
+        @media ( --mvp ) {
+            font-size: 16px;
+        }
+    };
+    --style-cta-medium {
+        font-family: var(--font-cta-medium);
+        font-size: 14px;
+        letter-spacing: 0.8px;
+        @media ( --mvp ) {
+            font-size: 16px;
+        }
+    };
+    --style-cta-quote-credit {
+        font-family: var(--font-cta-SabonLTStd-Italic);
+        font-size: 30px;
+        letter-spacing: 0.8px;
+        @media ( --mvp ) {
+            font-size: 24px;
+        }
+    };
+    --style-text-italic {
+        font-family: var(--font-italic);
+        font-size: 16px;
+        letter-spacing: 0.8px;
+        @media ( --mvp ) {
+            font-size: 18px;
+        }
+    };
+    /* Box Sizing */
+    --box-sizing {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+}
+/* stylelint-enable */

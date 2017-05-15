@@ -1,0 +1,11 @@
+@import '../../config/index.css';
+
+/* Template-specific imports */
+@import 'variables.css';
+@import 'defaults.css';
+@import '376.css' ( --mvp );
+
+/* Components imports */
+@import '../../../../components/example-grid/styles/index.css';
+@import '../../../../components/example-carousel/styles/index.css';
+@import '../../../../components/example-image/styles/index.css';

@@ -1,0 +1,50 @@
+/*
+Media Queries
+---------------------------*/
+@custom-media --smvp ( max-width: 375px );
+@custom-media --mvp ( min-width: 376px );
+@custom-media --lgvp ( min-width: 769px );
+
+/* Widths */
+:root {
+    --width-svp: 0px;
+    --width-mvp: 376px;
+    --width-lvp: 769px;
+    --width-max: 1480px;
+}
+
+/* Colors */
+:root {
+    --color-white: #fff;
+
+    /* HAL colors */
+    --color-light-blue: #abafc0;
+    --color-medium-blue: #2b386f;
+    --color-navy: #20285b;
+    --color-gray: #808080;
+    --color-light-gray: #e6e7ec;
+    --color-text-gray: #646363;
+    --color-canary: #f2bf59;
+    --color-garnet: #52254a;
+}
+
+/* Fonts */
+:root {
+    /* HAL Fonts */
+    --font-h1: 'Sabon-roman';
+    --font-h2: 'Sabon-roman';
+    --font-h3: 'Sabon-roman';
+    --font-h4: 'NeutraDisplay-medium';
+    --font-h5: 'NeutraDisplay-bold';
+    --font-body1: 'NeutraText-book';
+    --font-body2: 'NeutraText-book';
+    --font-body3: 'NeutraText-book';
+    --font-small-text: 'NeutraText-book';
+    --font-cta: 'NeutraDisplay-bold';
+    --font-cta-light: 'NeutraText-light';
+    --font-cta-medium: 'NeutraDisplay-medium';
+    --font-cta-sabon: 'Sabon-roman';
+    --font-cta-SabonLTStd-Italic: 'Sabon-italic';
+    --font-cta-SabonLTStd-Roman: 'SabonLTStd-Roman';
+    --font-italic: 'Sabon-italic';
+}

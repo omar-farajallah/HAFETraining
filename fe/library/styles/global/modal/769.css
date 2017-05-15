@@ -1,0 +1,37 @@
+.aria-modal {
+    height: auto;
+    position: initial;
+    overflow: initial;
+    margin: 151px 60px 60px;
+    & .modal-content {
+        padding-top: 40px;
+        max-width: calc( var(--width-max) - 60 );
+    }
+    & .close {
+        top: -111px;
+        right: 0;
+        float: right;
+        color: var(--color-white);
+        padding: 0;
+        position: relative;
+        margin-bottom: -26px;
+    }
+    & .close:after {
+        top: 0;
+        right: 0;
+        width: 26px;
+        height: 26px;
+        background: url(../../images/modal-close-lvp.png) 99% center no-repeat;
+    }
+    & .close-label {
+        @util text-hide;
+    }
+}
+
+.modal-video .aria-modal {
+    width: 70%;
+    & .close {
+        top: 40px;
+        right: 60px;
+    }
+}

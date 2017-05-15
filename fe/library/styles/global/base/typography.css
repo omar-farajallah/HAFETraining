@@ -1,0 +1,154 @@
+/* HAL Fonts */
+@font-face {
+    font-family: 'Sabon-bold';
+    src: url(../../fonts/SabonLTStd-Bold.otf);
+}
+@font-face {
+    font-family: 'Sabon-bold-italic';
+    src: url(../../fonts/SabonLTStd-BoldItalic.otf);
+}
+@font-face {
+    font-family: 'Sabon-italic';
+    src: url(../../fonts/SabonLTStd-Italic.otf);
+}
+@font-face {
+    font-family: 'Sabon-roman';
+    src: url(../../fonts/SabonLTStd-Roman.otf);
+}
+@font-face {
+    font-family: 'Neutraface-bold';
+    src: url(../../fonts/NeutrafaceText-Bold_Alt_LF.woff);
+}
+@font-face {
+    font-family: 'Neutraface-book';
+    src: url(../../fonts/NeutrafaceText-Book_Alt_LF.woff);
+}
+@font-face {
+    font-family: 'Neutraface-demi';
+    src: url(../../fonts/NeutrafaceText-DemiLF.woff);
+}
+@font-face {
+    font-family: 'NeutraDisplay-bold';
+    src: url(../../fonts/Neutra2Display-Bold.otf);
+}
+@font-face {
+    font-family: 'NeutraDisplay-inline';
+    src: url(../../fonts/Neutra2Display-Inline.otf);
+}
+@font-face {
+    font-family: 'NeutraDisplay-light';
+    src: url(../../fonts/Neutra2Display-Light.otf);
+}
+@font-face {
+    font-family: 'NeutraDisplay-medium';
+    src: url(../../fonts/Neutra2Display-Medium.otf);
+}
+@font-face {
+    font-family: 'NeutraDisplay-thin';
+    src: url(../../fonts/Neutra2Display-Thin.otf);
+}
+@font-face {
+    font-family: 'NeutraDisplay-titling';
+    src: url(../../fonts/Neutra2Display-Titling.otf);
+}
+@font-face {
+    font-family: 'NeutraText-bold';
+    src: url(../../fonts/Neutra2Text-Bold.otf);
+}
+@font-face {
+    font-family: 'NeutraText-bold-italic';
+    src: url(../../fonts/Neutra2Text-BoldItalic.otf);
+}
+@font-face {
+    font-family: 'NeutraText-book';
+    src: url(../../fonts/Neutra2Text-Book.otf);
+}
+@font-face {
+    font-family: 'NeutraText-book-italic';
+    src: url(../../fonts/Neutra2Text-BookItalic.otf);
+}
+@font-face {
+    font-family: 'NeutraText-demi';
+    src: url(../../fonts/Neutra2Text-Demi.otf);
+}
+@font-face {
+    font-family: 'NeutraText-demi-italic';
+    src: url(../../fonts/Neutra2Text-DemiItalic.otf);
+}
+@font-face {
+    font-family: 'NeutraText-light';
+    src: url(../../fonts/Neutra2Text-Light.otf);
+}
+@font-face {
+    font-family: 'NeutraText-light-italic';
+    src: url(../../fonts/Neutra2Text-LightItalic.otf);
+}
+/* SEA Fonts */
+@font-face {
+    font-family: 'Benton-medium';
+    src: url(../../fonts/Benton-Sans-Medium.otf);
+}
+@font-face {
+    font-family: 'Benton-black';
+    src: url(../../fonts/BentonSans-Black.otf);
+}
+@font-face {
+    font-family: 'Benton-bold';
+    src: url(../../fonts/BentonSans-Bold.otf);
+}
+@font-face {
+    font-family: 'Benton-book';
+    src: url(../../fonts/BentonSans-Book.otf);
+}
+@font-face {
+    font-family: 'Benton-light';
+    src: url(../../fonts/BentonSans-Light.otf);
+}
+@font-face {
+    font-family: 'Benton-regular';
+    src: url(../../fonts/BentonSans-Regular.otf);
+}
+@font-face {
+    font-family: 'Eames-light';
+    src: url(../../fonts/Eames-Century-Modern-Light.otf);
+}
+@font-face {
+    font-family: 'Eames-black';
+    src: url(../../fonts/Eames-Century-Modern-Black.otf);
+}
+@font-face {
+    font-family: 'Eames-black-italic';
+    src: url(../../fonts/Eames-Century-Modern-Black-Italic.otf);
+}
+@font-face {
+    font-family: 'Eames-bold';
+    src: url(../../fonts/Eames-Century-Modern-Bold.otf);
+}
+@font-face {
+    font-family: 'Eames-bold-italic';
+    src: url(../../fonts/Eames-Century-Modern-Bold-Italic.otf);
+}
+@font-face {
+    font-family: 'Eames-book';
+    src: url(../../fonts/Eames-Century-Modern-Book.otf);
+}
+@font-face {
+    font-family: 'Eames-book-italic';
+    src: url(../../fonts/Eames-Century-Modern-Book-Italic.otf);
+}
+@font-face {
+    font-family: 'Eames-extra-bold';
+    src: url(../../fonts/Eames-Century-Modern-Extra-Bold.otf);
+}
+@font-face {
+    font-family: 'Eames-extra-bold-italic';
+    src: url(../../fonts/Eames-Century-Modern-Extra-Bold-Italic.otf);
+}
+@font-face {
+    font-family: 'Eames-light';
+    src: url(../../fonts/Eames-Century-Modern-Light.otf);
+}
+@font-face {
+    font-family: 'Eames-light-italic';
+    src: url(../../fonts/Eames-Century-Modern-Light-Italic.otf);
+}

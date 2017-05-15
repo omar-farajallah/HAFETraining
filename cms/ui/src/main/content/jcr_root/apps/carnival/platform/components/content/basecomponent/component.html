@@ -1,0 +1,12 @@
+<!--/* This will be included only is model class entry is present at component level */-->
+
+<sly data-sly-test="${currentNode.hasNodes && properties.modelClass}" data-sly-use.ssr="${properties.modelClass}">
+    <div class="simple-app" data-id="${ssr.id}" data-type="${ssr.componentName}">
+        ${ssr.html @ context="unsafe"}
+    </div>
+    <sly data-sly-test="${!ssr.isStatic}">
+	    <script>
+	    	SR.components.data.push(${ssr.json @ context="unsafe"});
+	 	</script>
+ 	</sly>
+</sly>

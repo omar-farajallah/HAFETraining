@@ -1,0 +1,6 @@
+.aria-modal {
+    & .close {
+        top: 45px;
+        right: 45px;
+    }
+}

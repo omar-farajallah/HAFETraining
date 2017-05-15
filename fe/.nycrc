@@ -1,0 +1,14 @@
+{
+  "reporter": [
+    "text",
+    "text-summary",
+    "html",
+    "lcov"
+  ],
+  "report-dir": "reports/istanbul",
+  "require": [
+    "babel-register"
+  ],
+  "sourceMap": false,
+  "instrument": false
+}

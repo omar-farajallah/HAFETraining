@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:lastModified="{Date}2012-06-28T09:47:38.321-04:00"
+    jcr:mimeType="application/octet-stream"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="sling:Folder"/>

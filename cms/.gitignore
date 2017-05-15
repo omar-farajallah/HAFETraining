@@ -1,0 +1,6 @@
+target/
+.settings/
+.classpath
+.project
+install/
+*index.js

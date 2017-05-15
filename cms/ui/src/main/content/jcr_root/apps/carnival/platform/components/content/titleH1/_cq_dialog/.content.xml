@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Title H1 Dialog"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/foundation/container"
+        componentName="title">
+        <layout
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/foundation/layouts/tabs"
+            type="nav"/>
+        <items jcr:primaryType="nt:unstructured">
+            <title
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Title Details"
+                sling:resourceType="granite/ui/components/foundation/section">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"/>
+                <items jcr:primaryType="nt:unstructured">
+                    <columns
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <titleHeading
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                fieldLabel="H1 Title *"
+                                maxlength="33"
+                                name="./titleH1/title"
+                                required="true"/>
+                            <titleDescription
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/textarea"
+                                fieldLabel="Description Text"
+                                maxlength="110"
+                                name="./titleH1/description"/>
+                            <titleDecorator
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/select"
+                                fieldLabel="Title Decoration"
+                                loadcontent="titleDecoratorOnChange();"
+                                name="./titleH1/dividerType"
+                                selectionchanged="titleDecoratorOnChange();"
+                                value="icon">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <icon
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Icon"
+                                        value="icon"/>
+                                    <text
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Text"
+                                        value="text"/>
+                                </items>
+                            </titleDecorator>
+                            <titleText
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                fieldLabel="Title Decorator Text"
+                                name="./titleH1/dividerText"/>
+                            <isCampaignHeaderRequired
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/checkbox"
+                                class="showhide"
+                                defaultChecked="{Boolean}false"
+                                fieldLabel="Include in Campaign Header?” "
+                                loadcontent="isCampaignHeaderRequired();"
+                                name="./titleH1/isCampaignHeaderRequired"
+                                selectionchanged="isCampaignHeaderRequired();"
+                                text="Include in Campaign Header?"
+                                unChecked="{Boolean}false"
+                                value="true"/>
+                            <campaignHeaderText
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                fieldLabel="Campaign Header Anchor Text Copy *"
+                                id="campaign-header-text"
+                                maxlength="15"
+                                name="./titleH1/campaignHeaderText"
+                                required="true"/>
+                        </items>
+                    </columns>
+                </items>
+            </title>
+        </items>
+    </content>
+</jcr:root>

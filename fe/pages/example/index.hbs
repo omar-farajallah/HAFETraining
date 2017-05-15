@@ -1,0 +1,86 @@
+{{> ( local 'header' ) }}
+
+<body>
+<div class="main-wrapper">
+
+  <p>
+    Template: {{ template }}
+    <br>
+    View: {{ @exphbs.view }}
+  </p>
+
+  <hr>
+
+  <h2>Modal component</h2>
+  <div>
+    <div class="code">{{ stringify "{{> react-component ( react type='example-modal' class='example-modal' ) }}" }}</div>
+    {{> react-component ( react type='example-modal' class='example-modal' ) }}
+
+    {{> react-component ( react type='example-modal' class='example-modal' json='short' ) }}
+  </div>
+
+  <hr>
+
+  <h2>Carousel component</h2>
+  <div>
+    <div class="code">{{ stringify "{{> react-component ( react type='example-carousel' class='carousel' ) }}" }}</div>
+    {{> react-component ( react type='example-carousel' class='carousel' ) }}
+  </div>
+
+  <hr>
+
+  <h2>Static component</h2>
+  <div>
+    Custom JSON file
+    <div class="code">{{ stringify "{{> react-component ( react type='example-simple-react' json='alt' ) }}" }}</div>
+    {{> react-component ( react type='example-simple-react' json='alt' ) }}
+  </div>
+
+  <hr>
+
+  <h2>Dynamic component</h2>
+  <div>
+    Add additional class (to be used sparingly)
+    <div class="code">{{ stringify "{{> react-component ( react type='example-simple-react' class='custom-class' ) }}" }}</div>
+    {{> react-component ( react type='example-simple-react' class='custom-class' ) }}
+  </div>
+
+  <hr>
+
+  <h2>Dynamic component</h2>
+  <div>
+    - Custom JSON file
+    - Add additional class (to be used sparingly)
+    <div class="code">{{ stringify "{{> react-component ( react type='example-simple-react' class='different-class' json='test' ) }}" }}</div>
+    {{> react-component ( react type='example-simple-react' class='different-class' json='test' ) }}
+  </div>
+
+  <hr>
+
+  <h2 class="github component"></h2>
+  <div>
+    <div class="code">{{ stringify "{{> react-component ( react type='example-github' class='example-github' ) }}" }}</div>
+    {{> react-component ( react type='example-github' class='example-github' ) }}
+  </div>
+
+  <hr>
+
+  <h2>example component</h2>
+  <div>
+    <div class="code">{{ stringify "{{> react-component ( react type='example-image' ) }}" }}</div>
+    {{> react-component ( react type='example-image' ) }}
+  </div>
+
+  <hr>
+
+  <h2>grid component</h2>
+  <div>
+    <div class="code">{{ stringify "{{> react-component ( react type='example-grid' ) }}" }}</div>
+    {{> react-component ( react type='example-grid' ) }}
+  </div>
+
+  {{> ( local 'footer' ) }}
+
+</div>
+</body>
+</html>

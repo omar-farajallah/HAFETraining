@@ -1,0 +1,37 @@
+/* eslint-disable no-sync */
+/**
+ * Validate commit message. Based on AngularJS Git Commit Message Conventions.
+ *
+ * @link https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit-message-format
+ */
+const fs = require( 'fs' );
+const msg = fs.readFileSync( process.argv[ 2 ], 'utf8' );
+
+const logTmpl = '[commit-msg]';
+
+const rules = [
+    {
+        message: 'Error: "[<type>]:" is not formatted correctly. Must begin with one of the following: "[feature]", "[fix]", "[docs]", "[style]", "[refactor]", "[test]", "[chore]", "[wip]", "[merge]", or "[patch]".',
+        pattern: /^\[(feature|fix|docs|style|refactor|test|chore|wip|merge|patch)\]/
+    }
+];
+
+const errors = rules.filter( rule => {
+    return !rule.pattern.test( msg );
+});
+
+if ( !errors.length ) {
+
+    console.log( `${logTmpl} Commit message validated successfully.` );
+
+    process.exit( 0 );
+}
+else {
+
+    errors.forEach( rule => {
+        console.error( `${logTmpl} ${rule.message}` );
+        console.error( `${logTmpl} Original commit message: ${msg.replace( /^#.*/gm, '' )}` );
+    });
+
+    process.exit( 1 );
+}

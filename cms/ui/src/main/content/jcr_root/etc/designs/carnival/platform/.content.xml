@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-03-02T18:48:49.635+05:30"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="platform Design"
+        sling:resourceType="wcm/core/components/designer">
+        <homePage jcr:primaryType="nt:unstructured">
+            <contentpar_1
+                jcr:lastModified="{Date}2017-03-02T18:36:18.760+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                components="[/apps/carnival/platform/components/content/titleH1,/apps/carnival/platform/components/content/hero,/apps/carnival/platform/components/content/searchBar,/apps/carnival/platform/components/content/storyRotator,/apps/carnival/platform/components/content/destinationTile,/apps/carnival/platform/components/content/brandstoryrotator,/apps/carnival/platform/components/content/mediaGallery,/apps/carnival/platform/components/content/socialModule,/apps/carnival/platform/components/content/editorialContent,/apps/carnival/platform/components/content/twoImageRotator,/apps/carnival/platform/components/content/tileGroupModule,/apps/carnival/platform/components/content/specialOffers]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </contentpar_1>
+        </homePage>
+        <merchandisingCampaignPage jcr:primaryType="nt:unstructured">
+            <contentpar_1
+                jcr:lastModified="{Date}2017-03-02T18:44:21.717+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                components="[/apps/carnival/platform/components/content/titleH1,/apps/carnival/platform/components/content/storyRotator,/apps/carnival/platform/components/content/destinationTile,/apps/carnival/platform/components/content/tileGrid,/apps/carnival/platform/components/content/campaignLandingHeader]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </contentpar_1>
+            <contentpar_2
+                jcr:lastModified="{Date}2017-03-02T18:45:16.460+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                components="[/apps/carnival/platform/components/content/titleH1,/apps/carnival/platform/components/content/storyRotator,/apps/carnival/platform/components/content/destinationTile,/apps/carnival/platform/components/content/tileGrid,/apps/carnival/platform/components/content/campaignLandingHeader]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </contentpar_2>
+        </merchandisingCampaignPage>
+        <storyCampaignPage jcr:primaryType="nt:unstructured">
+            <contentpar_1
+                jcr:lastModified="{Date}2017-03-02T18:47:27.895+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                components="[/apps/carnival/platform/components/content/titleH1,/apps/carnival/platform/components/content/storyRotator,/apps/carnival/platform/components/content/destinationTile,/apps/carnival/platform/components/content/editorialContent,/apps/carnival/platform/components/content/twoImageRotator,/apps/carnival/platform/components/content/tileGroupModule,/apps/carnival/platform/components/content/article,/apps/carnival/platform/components/content/gridImageCopyBlock,/apps/carnival/platform/components/content/carouselEditorial,/apps/carnival/platform/components/content/campaignLandingHeader]">
+                <section jcr:primaryType="nt:unstructured"/>
+				<article jcr:primaryType="nt:unstructured">
+                    <childComponents
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/parsys"
+                        components="[/apps/carnival/platform/components/content/titleH1,/apps/carnival/platform/components/content/copyBlock,/apps/carnival/platform/components/content/quotePullout,/apps/carnival/platform/components/content/fullWidthImage]"/>
+                </article>
+            </contentpar_1>
+            <contentpar_2
+                jcr:lastModified="{Date}2017-03-02T18:48:49.629+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                components="[/apps/carnival/platform/components/content/titleH1,/apps/carnival/platform/components/content/storyRotator,/apps/carnival/platform/components/content/destinationTile,/apps/carnival/platform/components/content/editorialContent,/apps/carnival/platform/components/content/twoImageRotator,/apps/carnival/platform/components/content/tileGroupModule,/apps/carnival/platform/components/content/article,/apps/carnival/platform/components/content/gridImageCopyBlock,/apps/carnival/platform/components/content/carouselEditorial,/apps/carnival/platform/components/content/campaignLandingHeader]">
+                <section jcr:primaryType="nt:unstructured"/>
+				<article jcr:primaryType="nt:unstructured">
+                    <childComponents
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/parsys"
+                        components="[/apps/carnival/platform/components/content/titleH1,/apps/carnival/platform/components/content/copyBlock,/apps/carnival/platform/components/content/quotePullout,/apps/carnival/platform/components/content/fullWidthImage]"/>
+                </article>
+            </contentpar_2>
+        </storyCampaignPage>
+    </jcr:content>
+    <css/>
+    <fonts/>
+    <images/>
+    <js/>
+</jcr:root>

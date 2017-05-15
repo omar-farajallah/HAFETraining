@@ -1,0 +1,41 @@
+.title-component {
+    width: 100%;
+    clear: both;
+    padding: 50px 0 25px 0;
+    & .inner-container {
+        lost-utility: clearfix;
+        lost-center: 240px;
+    }
+    & h1 {
+        text-align: center;
+        margin: 0 0 20px;
+        color: var(--color-navy);
+        @apply --style-h1;
+    }
+    & p {
+        text-align: center;
+        margin: 25px auto 0;
+        color: var(--color-text-gray);
+        @apply --style-body1;
+    }
+    & .icon-heading {
+        display: none;
+    }
+    & .title-decorator {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        color: var(--color-text-gray);
+        clear: both;
+    }
+    & .title-decorator-image {
+        display: block;
+        width: 88px;
+        height: 8px;
+        margin: 0 auto;
+        text-align: center;
+        background: url(../../../images/rope-squiggle.png);
+        background-repeat: no-repeat;
+        clear: both;
+    }
+}

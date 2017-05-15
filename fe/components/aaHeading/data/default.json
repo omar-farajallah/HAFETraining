@@ -1,0 +1,10 @@
+{
+    "type": "aaHeading",
+    "id": "7234a67",
+    "meta":{
+        "render": "static"
+    },
+    "attributes": {
+        "title": "My Heading Component"
+    }
+}
