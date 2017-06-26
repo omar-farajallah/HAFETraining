@@ -23,6 +23,9 @@ module.exports = validate({
         ],
         'js/mediators/example': [
             `${process.cwd()}/${brandFolder}/js/mediators/example.js`
+        ],
+        'js/mediators/halPage': [
+            `${process.cwd()}/${brandFolder}/js/mediators/halPage.js`
         ]
     },
 

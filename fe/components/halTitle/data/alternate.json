@@ -1,0 +1,10 @@
+{
+    "type": "halTitle",
+    "id": "7234a67",
+    "meta":{
+        "render": "static"
+    },
+    "attributes": {
+        "title": "This is the alternate JSON."
+    }
+}
