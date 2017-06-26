@@ -2,10 +2,8 @@
 <workspaceFilter version="1.0">
     <filter root="/apps/carnival/platform">
         <exclude pattern="/apps/carnival/platform/install" />
-        <exclude pattern="/apps/carnival/platform/components/ssr"/>
-        <exclude pattern="^/apps/carnival/platform/components/content/[a-zA-Z0-9]+(/index.js)$"/>
     </filter>
     <filter root="/apps/cq/gui/components/authoring/dialog/richtext"/>
     <filter root="/etc/clientlibs/platform"/>
-    <filter root="/etc/designs/carnival/platform/jcr:content"/>
+    <filter root="/etc/designs/carnival"/>
 </workspaceFilter>
