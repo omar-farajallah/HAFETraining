@@ -5,6 +5,10 @@
 *.iml
 *.idea
 .DS_Store
+*.metadata
+*.recommenders
+*RemoteSystemsTempFiles
+*carnival@1.0.0*
 .tm_properties
 .nyc_output
 .vscode
