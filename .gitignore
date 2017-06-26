@@ -2,6 +2,8 @@
 *.orig
 *.sublime-project
 *.sublime-workspace
+*.iml
+*.idea
 .DS_Store
 .tm_properties
 .nyc_output
