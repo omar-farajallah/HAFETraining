@@ -339,14 +339,14 @@
             <uniqueVersion>true</uniqueVersion>
             <id>aem-releases</id>
             <name>Carnival Nexus Releases</name>
-            <url>http://172.31.48.43:8081/nexus/content/repositories/aem-releases/</url>
+            <url>https://172.31.48.43:8081/nexus/content/repositories/aem-releases/</url>
             <layout>default</layout>
         </repository>
         <snapshotRepository>
             <uniqueVersion>true</uniqueVersion>
             <id>aem-snapshots</id>
             <name>Carnival Nexus Snapshots</name>
-            <url>http://172.31.48.43:8081/nexus/content/repositories/aem-snapshots/</url>
+            <url>https://172.31.48.43:8081/nexus/content/repositories/aem-snapshots/</url>
             <layout>default</layout>
         </snapshotRepository>
     </distributionManagement>
